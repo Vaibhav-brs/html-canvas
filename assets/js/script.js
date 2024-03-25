@@ -78,3 +78,12 @@ num == 10;
 function addNum(a = 10, b = 20) {
   return a + b;
 }
+ 
+const clearButton = document.getElementById('clearButton');
+
+// Add click event listener to the Clear Canvas button
+clearButton.addEventListener('click', function() {
+  // Clear the canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+});
+

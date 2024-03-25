@@ -261,3 +261,15 @@ footer {
 .theme-switch-yellow_sea:hover {
   box-shadow: 2px 2px 2px var(--yellow_sea);
 }
+.text-center{
+    padding-bottom: 20px;
+    font-size: 1.0em;
+    color: #991E14;
+    
+    border-radius: 3px;
+    transition: background-color 0.25s;
+    text-align: center
+        
+      
+    
+}
